@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+.header1{
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* position: fixed;
+    top: 0; */
+}
+.head1{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    justify-content: space-around;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; */
+}
+.home{
+    font-size: 20px;
+}
+.head1>button{
+    height: 30px;
+    width: 90px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(32, 32, 240);
+    border: unset;
+    border-radius: 5px;
+}
+figcaption{
+    min-height: 500px ;
+    background-image: url("./nature.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figurecontent>h2{
+    padding: 20px 0px;
+    color: white;
+}
+.figurecontent>h1{
+    font-size: 40px;
+}
+.figurecontent>button{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin-right: 20px;
+}
+.but1{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    background-color: unset;
+    border: 1px solid white;
+    color: white;
+}
+section{
+    padding: 20px 100px;
+}
+section>p{
+    padding: 20px 0px;
+    color: gray;
+}
+.content{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overall{
+    min-height: 500px;
+    width: 1300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content1, .content2, .contentbox{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.contentbox{
+    height: 250px;
+    width: 433.33px;
+    padding: 50px 20px;
+    color: gray;
+}
+.contentbox>p{
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.contentbox>span{
+    color: blue;
+}
+.contentbox1{
+    height: 250px;
+    width: 433.33px;
+}
+.contentbox1>img{
+    height: 100%;
+    width: 100%;
+}
+.article1{
+    min-height: 300px;
+    /* border: 1px solid black; */
+    padding: 50px 0px;
+    
+}
+.article2{
+    min-height: 300px;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    color: gray;
+    line-height: 25px;
+}
+figure{
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-image: url("./img2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputbox>h1{
+    font-size: 50px;
+    padding-bottom:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inputbox{
+    width: 60%;
+}
+.inputtype{
+    display: flex;
+}
+.inputtype>input{
+    height: 40px;
+    width: 75%;
+    border: unset;
+    padding: 10px;
+}
+::placeholder{
+    color: black;
+}
+.inputtype>button{
+    height: 40px;
+    width: 100px;
+    border: unset;
+    background-color: rgb(29, 126, 236);
+    color: white;
+}
+aside{
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    min-height: 250px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+}
+.card>h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.card>p{
+    padding: 20px 0px;
+    line-height: 25px;
+}
+.col{
+    background-color: violet;
+}
+.col1{
+    background-color: rosybrown;
+}
+.article2>h1{
+    font-size: 50px;
+    color: black;
+}
+.article2>h3{
+    padding-top: 20px;
+    color: black;
+}
+main{
+    padding: 40px ;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.travel{
+    width: 400px;
+    padding: 20px;
+}
+.travel>p{
+    padding: 15px 0px;
+    line-height: 23px;
+}
+.travel>button{
+    width: 90%;
+    color: white;
+    background-color: rgb(47, 99, 243);
+    border-radius: 5px;
+    border: unset;
+    height: 30px;
+}
+.travel1{
+    width: 400px;
+}
+.travel1>img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.travel1>p{
+    padding: 10px 0px;
+    line-height: 23px;
+}
+.travel1>span{
+    color: blue;
+
+}
+.read{
+    padding: 20px;
+    text-align: center;
+}
+.read>p{
+    padding-top: 20px;
+    line-height: 25px;
+}
+.tourplace{
+    padding: 20px ;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tour{
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tour>img{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+.tour>p{
+    padding: 10px 20px;
+    line-height: 23px;
+}
+.tour>span{
+    color: blue;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+footer{
+   min-height: 200px;
+    background-color: rgb(161, 186, 206);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.card1{
+    width: 250px;
+    padding: 10px;
+}
+.card1>p{
+    padding: 10px 0px ;
+    color: gray;
+    line-height: 25px;
+}
+.sp{
+    padding-bottom: 10px;
+}
+.icone{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding:  8px;
+    color: white;
+    /* font-size: 25px; */
+    background-color: rgb(13, 46, 236);
+    margin: 4px;
+}
+@media  only screen and (min-width:300px) and (max-width:500px) {
+
+    .head1{
+        min-height: 50px;
+        padding:10px ;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .home{
+        font-size:15px;
+    }
+    .but1{
+        margin: 5px;
+    }
+    .overall{
+        width: 300px;
+    }
+    
+}
+@media  only screen and (min-width:500px) and (max-width:1100px) {
+    .head1{
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .content1, .content2, .contentbox{
+        justify-content: center;
+
+        
+    }
+
+}
+@media  only screen and (min-width:1100px) and (max-width:1400px) {
+    .head1{
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+}
